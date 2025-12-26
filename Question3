@@ -1,0 +1,24 @@
+# Question 3 – Linux Links & Disk Usage
+
+This folder contains evidence of Linux file linking, inode inspection,
+and disk usage analysis performed in the user's home directory.
+
+## Tasks completed
+- Created sample_data.txt with sample content
+- Created a hard link (sample_hard.txt)
+- Created a symbolic link (sample_soft.txt)
+- Verified inode numbers using ls -i
+- Inspected file metadata using stat
+- Demonstrated disk usage with df -h and du -h
+- Verified symbolic link deletion does not affect original file
+
+## Key commands used
+- echo
+- ln
+- ln -s
+- ls -l
+- ls -i
+- stat
+- rm
+- df -h
+- du -h
